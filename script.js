@@ -490,7 +490,7 @@ function updateHTML() {
     // Update traits in html
     document.getElementById("rabbit-speed").textContent = `Speed: ${averageSpeed.toFixed(3)}`;
     document.getElementById("rabbit-endurance").textContent = `Endurance: ${averageEndurance.toFixed(3)}`;
-    document.getElementById("rabbit-camoflage").textContent = `Camoflage: ${averageCamoflage.toFixed(3)}`;
+    document.getElementById("rabbit-camoflage").textContent = `Camouflage: ${averageCamoflage.toFixed(3)}`;
   }
   document.getElementById("rabbit-total").textContent = `Rabbits: ${rabbitList.length}`;
 
@@ -511,7 +511,7 @@ function updateHTML() {
     // Update traits in html
     document.getElementById("wolf-speed").textContent = `Speed: ${averageSpeed.toFixed(3)}`;
     document.getElementById("wolf-endurance").textContent = `Endurance: ${averageEndurance.toFixed(3)}`;
-    document.getElementById("wolf-camoflage").textContent = `Camoflage: ${averageCamoflage.toFixed(3)}`;
+    document.getElementById("wolf-camoflage").textContent = `Camouflage: ${averageCamoflage.toFixed(3)}`;
   }
   document.getElementById("wolf-total").textContent = `Wolves: ${wolfList.length}`;
 
@@ -532,7 +532,7 @@ function updateHTML() {
     // Update traits in html
     document.getElementById("lion-speed").textContent = `Speed: ${averageSpeed.toFixed(3)}`;
     document.getElementById("lion-endurance").textContent = `Endurance: ${averageEndurance.toFixed(3)}`;
-    document.getElementById("lion-camoflage").textContent = `Camoflage: ${averageCamoflage.toFixed(3)}`;
+    document.getElementById("lion-camoflage").textContent = `Camouflage: ${averageCamoflage.toFixed(3)}`;
   }
   document.getElementById("lion-total").textContent = `Lions: ${lionList.length}`;
 }
@@ -692,3 +692,4 @@ function animate(timestamp) {
 }
 
 window.requestAnimationFrame(animate);
+
