@@ -1,0 +1,55 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  background-color: #121212; /* Dark background */
+  color: #f1f1f1; /* Light text for contrast */
+  font-family: 'Arial', sans-serif;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column; /* Align children vertically */
+  justify-content: flex-start; /* Align elements at the top */
+  align-items: center; /* Center horizontally */
+  padding: 20px; /* Some padding around */
+}
+
+/* Header container */
+.header {
+  display: flex;
+  flex-direction: column; /* Stack the h1 elements vertically */
+  align-items: center; /* Center the h1 elements horizontally */
+  text-align: center; /* Ensure text is centered */
+  margin-bottom: 20px; /* Space between the headers and the scene */
+}
+
+/* Style for the h1 elements */
+h1 {
+  font-size: 2rem; /* Adjust the size of the headings */
+  margin: 0.5rem 0; /* Space between the h1 elements */
+}
+
+/* Animal info container */
+.animal-info {
+  display: flex;            /* Create a flex container */
+  justify-content: space-evenly; /* Evenly space the children */
+  align-items: flex-start;  /* Align the items at the top of the container */
+  padding: 20px 0;          /* Some padding on top and bottom */
+}
+
+/* Animal item (each animal) */
+.animal {
+  text-align: center; /* Ensure text is centered */
+  flex: 1;            /* Each animal takes an equal slot */
+  margin: 0 10px;     /* Space between the animals */
+  padding: 20px;
+  background-color: #252525;
+}
+
+h3 {
+  font-size: 1rem; /* Smaller text for traits */
+}
