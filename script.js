@@ -1,7 +1,7 @@
 // @ts-nocheck
 
-import * as T from "../libs/CS559-Three/build/three.module.js";
-import { OrbitControls } from "../libs/CS559-Three/examples/jsm/controls/OrbitControls.js";
+import * as T from "../CS559FinalProject/libs/CS559-Three/build/three.module.js";
+import { OrbitControls } from "../CS559FinalProject/libs/CS559-Three/examples/jsm/controls/OrbitControls.js";
 
 
 let renderer = new T.WebGLRenderer({preserveDrawingBuffer:true});
@@ -690,4 +690,5 @@ function animate(timestamp) {
   renderer.render(scene, camera);
   window.requestAnimationFrame(animate);
 }
+
 window.requestAnimationFrame(animate);
